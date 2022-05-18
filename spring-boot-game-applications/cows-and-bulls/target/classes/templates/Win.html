@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Cows and bulls</title>
+</head>
+<body>
+ <h1>Congratulations, you win!</h1>
+ <p>Do you want to start new game?</p>
+ <form action="/games" method="post">
+  <button type="submit">Yes</button>
+ </form>
+  <form action="/" method="get">
+  <button type="submit">No</button>
+ </form>
+</body>
+</html>
